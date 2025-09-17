@@ -149,7 +149,7 @@ systemctl start jenkins
 
 * Ensure SonarQube is up and running (local or cloud).
 ```
-docker run --itd --name sonar -p 9000:9000 sonarqube
+docker run -itd --name sonar -p 9000:9000 sonarqube
 ```
 
 #### In Jenkins:
